@@ -1,0 +1,59 @@
+Usuário
+id_usuario (PK)
+
+nome
+
+cpf
+
+email
+
+telefone
+
+data_nascimento
+
+endereco
+
+Livro
+id_livro (PK)
+
+titulo
+
+autor
+
+editora
+
+ano_publicacao
+
+isbn
+
+genero
+
+quantidade_disponivel
+
+Empréstimo
+id_emprestimo (PK)
+
+id_usuario (FK)
+
+id_livro (FK)
+
+data_emprestimo
+
+data_devolucao_prevista
+
+data_devolucao_real
+
+status (emprestado, devolvido, atrasado)
+
+Funcionário
+id_funcionario (PK)
+
+nome
+
+cpf
+
+cargo
+
+email
+
+telefone
